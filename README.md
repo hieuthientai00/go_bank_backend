@@ -9,12 +9,6 @@
 - Money transfer transaction
   - Perform money transfer between 2 accounts consistently within a transaction
 
-### Pre-requisites
-
-- Install `docker for desktop`
-- Execute `brew install golang-migrate sqlc`
-- Execute `go install github.com/golang/mock/mockgen@v1.6.0`
-
 ### Database Design
 
 - Design DB schema using dbdiagram.io
