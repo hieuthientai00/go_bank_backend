@@ -51,7 +51,7 @@ func TestExpiredJWTToken(t *testing.T) {
 }
 
 func TestInvalidTokenAlgNone(t *testing.T) {
-	payload, err := NewPayload(util.RandomOwnerName(), time.Minute)
+	payload, err := NewPayload(util.RandomOwnerName(), time.Hour)
 	require.NoError(t, err)
 
 	jwtToken := jwt.NewWithClaims(jwt.SigningMethodNone, payload)

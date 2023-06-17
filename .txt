@@ -1,0 +1,17 @@
+Đây là tài liệu của backend cùng api
+
+User:
+-   Người gửi :
+    -   Username: hieuthientai00
+    -   Password: hieuthientai2001
+    account
+    {
+    "id": 123,
+    "owner": "hieuthientai00",
+    "balance": 0,
+    "currency": "USD",
+    "created_at": "2023-06-16T16:23:18.581015+07:00"
+    }
+-   Người nhận :
+    -   Username: hieuthientai2001
+    -   Password: hieuthientai2001
