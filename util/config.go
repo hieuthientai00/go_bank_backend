@@ -30,7 +30,6 @@ func LoadConfig(path string) (config Config, err error) {
 	if err != nil {
 		return
 	}
-
 	// load config struct with values and return
 	err = viper.Unmarshal(&config)
 	return

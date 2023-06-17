@@ -35,7 +35,6 @@ func NewMockStore(ctrl *gomock.Controller) *MockStore {
 func (m *MockStore) EXPECT() *MockStoreMockRecorder {
 	return m.recorder
 }
-
 // CreateAccount mocks base method.
 func (m *MockStore) CreateAccount(arg0 context.Context, arg1 db.CreateAccountParams) (db.Account, error) {
 	m.ctrl.T.Helper()

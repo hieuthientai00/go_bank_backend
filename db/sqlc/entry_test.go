@@ -25,7 +25,6 @@ func createRandomEntry(t *testing.T) Entry {
 
 	require.Equal(t, arg.AccountID, entry.AccountID)
 	require.Equal(t, arg.Amount, entry.Amount)
-
 	require.NotZero(t, entry.ID)
 	require.NotZero(t, entry.CreatedAt)
 

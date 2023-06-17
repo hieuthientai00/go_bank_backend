@@ -29,7 +29,7 @@ func main() {
 	// create a server connected to the store
 	server, err := api.NewServer(config, store)
 	if err != nil {
-		log.Fatal("cannot create server : ", err)
+		log.Fatal("cannot create server: ", err)
 	}
 
 	// start the server

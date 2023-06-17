@@ -25,7 +25,6 @@ func NewPayload(username string, duration time.Duration) (*Payload, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	payload := &Payload{
 		ID:        tokenID,
 		Username:  username,

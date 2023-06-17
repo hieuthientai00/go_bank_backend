@@ -13,6 +13,7 @@ CREATE TABLE "entries" (
 	"created_at" timestamptz NOT NULL DEFAULT(now())
 );
 
+
 CREATE TABLE "transfers" (
 	"id" bigserial PRIMARY KEY,
 	"from_account_id" bigint NOT NULL,
